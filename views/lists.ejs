@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>list of user's informations</title>
+</head>
+<body>
+	<% data.forEach(function(item){ %>
+	<li>姓名:<%= item.name %>, 性别:<%= item.sex %>, 年纪:<%= item.age %></li>
+	<% }) %>
+</body>
+</html>
